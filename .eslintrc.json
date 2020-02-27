@@ -7,14 +7,16 @@
   },
   "env": {
     "es6": true,
-    "node": true
+    "node": true,
+    "jest": true
   },
   "extends": [
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:prettier/recommended"
   ],
   "plugins": [
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "jest"
   ],
   "globals": {
     "Atomics": "readonly",
