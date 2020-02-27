@@ -11,8 +11,5 @@
   "coverageDirectory": "./coverage",
   "preset": "ts-jest",
   "moduleFileExtensions": [ "js", "ts" ],
-  "modulePaths": [ "<rootDir>/src" ],
-  "moduleNameMapper": {
-    "^/(.*)$": "<rootDir>/src/$1"
-  }
+  "modulePaths": [ "<rootDir>/src" ]
 }
