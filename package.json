@@ -1,7 +1,7 @@
 {
   "name": "typescript-template",
   "version": "1.0.0",
-  "description": "Typescript Template with VS Code flavor",
+  "description": "typescript template with VS Code flavor",
   "main": "dist/index.js",
   "scripts": {
     "lint": "eslint src/**/*.ts",

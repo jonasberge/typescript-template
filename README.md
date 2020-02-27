@@ -1,6 +1,6 @@
 # typescript-template
 
-Typescript Template with VS Code flavor
+TypeScript Template with VS Code flavor
 
 ## Extensions
 
