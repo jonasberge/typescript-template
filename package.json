@@ -6,7 +6,6 @@
   "scripts": {
     "lint": "eslint src/**/*.ts",
     "build": "tsc --project tsconfig.tsc.json",
-    "pack": "ncc build",
     "test": "jest",
     "all": "npm-run-all lint build pack test"
   },
@@ -30,7 +29,6 @@
     "@types/node": "^13.7.6",
     "@typescript-eslint/eslint-plugin": "^2.21.0",
     "@typescript-eslint/parser": "^2.21.0",
-    "@zeit/ncc": "^0.21.1",
     "eslint": "^6.8.0",
     "eslint-config-typescript": "^3.0.0",
     "eslint-plugin-jest": "^23.8.0",
