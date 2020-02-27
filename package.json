@@ -2,7 +2,7 @@
   "name": "typescript-template",
   "version": "1.0.0",
   "description": "Typescript Template with VS Code flavor",
-  "main": "dist/main.js",
+  "main": "dist/index.js",
   "scripts": {
     "lint": "eslint src/**/*.ts",
     "build": "tsc --project tsconfig.tsc.json",

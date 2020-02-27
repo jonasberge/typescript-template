@@ -1,4 +1,4 @@
-import { foo } from '/main'
+import { foo } from '/index'
 
 describe('foo', () => {
   it('returns its name', () => {
