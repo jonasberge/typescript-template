@@ -8,7 +8,7 @@
     "build": "tsc --project tsconfig.tsc.json",
     "pack": "ncc build",
     "test": "jest",
-    "all": "npm-run-all format-check lint build pack test"
+    "all": "npm-run-all lint build pack test"
   },
   "repository": {
     "type": "git",
