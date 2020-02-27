@@ -9,14 +9,6 @@
   "verbose": true,
   "collectCoverage": true,
   "coverageDirectory": "./coverage",
-  "globals": {
-    "ts-jest": {
-      "tsConfig": "./tsconfig.json",
-      "diagnostics": {
-        "warnOnly": true
-      }
-    }
-  },
   "preset": "ts-jest",
   "moduleFileExtensions": [ "js", "ts" ],
   "modulePaths": [ "<rootDir>/src" ],
