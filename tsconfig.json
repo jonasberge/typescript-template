@@ -5,7 +5,10 @@
     "strict": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
-    "baseUrl": "src"
+    "baseUrl": "src",
+    "paths": {
+      "/*": [ "*" ]
+    }
   },
   "include": [
     "**/*.ts"

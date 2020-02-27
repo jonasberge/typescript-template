@@ -19,5 +19,8 @@
   },
   "preset": "ts-jest",
   "moduleFileExtensions": [ "js", "ts" ],
-  "modulePaths": [ "<rootDir>/src" ]
+  "modulePaths": [ "<rootDir>/src" ],
+  "moduleNameMapper": {
+    "^/(.*)$": "<rootDir>/src/$1"
+  }
 }
